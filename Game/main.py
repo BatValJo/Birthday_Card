@@ -13,7 +13,7 @@ pygame.display.set_caption("Happy Birthday! 💕")
 
 
 # Sprite sheet
-sprite_sheet_run = pygame.image.load('Assets/Medieval Warrior Pack/Run.png').convert_alpha()
+sprite_sheet_run = pygame.image.load('Assets/Daniel/Run.png').convert_alpha()
 sprite_sheet = spritesheet.SpriteSheet(sprite_sheet_run)
 
 BLACK = (0, 0, 0)
