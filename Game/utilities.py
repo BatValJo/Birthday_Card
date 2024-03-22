@@ -9,4 +9,3 @@ def draw_background(back_images, wind, back_width, scroll_):
 def draw_city(wind, city_surf_, width, scroll_):
     for i in range(20):
         wind.blit(city_surf_, (i*width - scroll_, 300))
-
